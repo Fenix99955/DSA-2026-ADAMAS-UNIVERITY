@@ -3,7 +3,7 @@
 #include<stdio.h>
 int n;
 int arr[6]={5,6,2,4,8,3};
-int size=sizeof(arr)/sizeof(arr[0]);
+int size=6;
 
 int perform(){
     printf("your element is : %d",arr[n]);
