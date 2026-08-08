@@ -12,19 +12,19 @@ void main(){
     switch(n){
         case 1 :
             printf("the characterestics are : \n");
-            printf(" Nonlinear data structure \n Contiguous Memory \n Direct Access \n Homogeneous Data \n");
+            printf(" linear data structure \n Contiguous Memory \n Direct Access \n Homogeneous Data \n");
             break;
         case 2 :
             printf("the characterestics are : \n");
-            printf(" Nonlinear data structure \n Dynamic Size \n Scattered Memory Pointer Chains \n Sequential Access \n");
+            printf("linear data structure \n Dynamic Size \n Scattered Memory Pointer Chains \n Sequential Access \n");
             break;
         case 3 :
             printf("the characterestics are : \n");
-            printf(" Linear datastructure \n Single Root \n Unique Paths \n No Loops \n");
+            printf(" noninear datastructure \n Single Root \n Unique Paths \n No Loops \n");
             break;
         case 4:
             printf("the characterestics are : \n");
-            printf(" Linear datastructure \n Vertices & Edges \n Cyclic Links \n Directional Flow \n");
+            printf(" noninear datastructure \n Vertices & Edges \n Cyclic Links \n Directional Flow \n");
             break;
         default:
             printf("Please enter a valid selection!");
