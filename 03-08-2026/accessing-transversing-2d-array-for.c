@@ -2,8 +2,8 @@
 #include<stdio.h>
 int n,m;
 int arr[2][6]={{5,6,2,4,8,3},{5,9,1,4,6,7}};
-int size=sizeof(arr)/sizeof(arr[0]);
-int size2=sizeof(arr[0])/sizeof(arr[0][0]);
+int size=2;
+int size2=6;
 int perform(){
     printf("your element is : %d",arr[n][m]);
 }
