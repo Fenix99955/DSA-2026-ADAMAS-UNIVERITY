@@ -1,7 +1,7 @@
 //accessing and transversing 2D array using while loop
 #include<stdio.h>
 int n,m,i=0,j=0;
-int arr[2][6]={{5,6,2,4,8,3},{5,9,1,4,6,7};
+int arr[2][6]={{5,6,2,4,8,3},{5,9,1,4,6,7}};
 int size=2;
 int size2=6;
 int perform(){
