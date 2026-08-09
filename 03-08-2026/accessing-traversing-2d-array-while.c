@@ -8,7 +8,6 @@ int perform(){
     printf("your element is : %d",arr[n][m]);
 }
 int main(){
-    int i=0;
     printf("the row and column of the array  %d %d \n ",size,size2);
     printf("the elements are : \n");
     while(i<size){
@@ -17,6 +16,7 @@ int main(){
             j++;
         }
         i++;
+        j=0;
         printf("\n");
     }
 
