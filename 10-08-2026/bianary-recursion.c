@@ -1,8 +1,8 @@
+//code for bianary search using iteration
 #include<stdio.h>
 
 int bianarySearch(int arr[],int x,int low,int high){
-    while(high>=low){
-        int mid=low+(high - low)/2;
+    int mid=low+(high - low)/2;
         if(arr[mid]==x){
             return mid;
 
@@ -15,7 +15,6 @@ int bianarySearch(int arr[],int x,int low,int high){
            return  bianarySearch(arr,x,low,mid-1);
             }
 
-    }
 
     return -1;
 
