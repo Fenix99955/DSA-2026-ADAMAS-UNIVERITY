@@ -2,7 +2,8 @@
 #include<stdio.h>
 
 int bianarySearch(int arr[],int x,int low,int high){
-    int mid=low+(high - low)/2;
+   
+        int mid=low+(high - low)/2;
         if(arr[mid]==x){
             return mid;
 
