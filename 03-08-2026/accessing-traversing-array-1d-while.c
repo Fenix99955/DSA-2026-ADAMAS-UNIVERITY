@@ -1,4 +1,4 @@
-//accessing and transversing 1D array using while loop
+//accessing and traversing 1D array using while loop
 #include<stdio.h>
 int n;
 int arr[6]={5,6,2,4,8,3};

@@ -11,6 +11,8 @@ int main(){
         arr[i]=arr[i+1];
     }
     size--;
+
+    
     for(int j=0; j<size; j++){
         printf("%d ,",arr[j]);
     }
