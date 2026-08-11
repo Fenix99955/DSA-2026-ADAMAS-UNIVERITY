@@ -1,4 +1,4 @@
-// accessing and transversing 1D array using for loop
+// accessing and traversing 1D array using for loop
 
 #include<stdio.h>
 int n;

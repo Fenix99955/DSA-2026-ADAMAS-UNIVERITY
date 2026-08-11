@@ -1,4 +1,4 @@
-//accessing and transversing 2D array using for loop
+//accessing and traversing 2D array using for loop
 #include<stdio.h>
 int n,m;
 int arr[2][6]={{5,6,2,4,8,3},{5,9,1,4,6,7}};

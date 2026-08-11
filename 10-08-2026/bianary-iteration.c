@@ -1,3 +1,4 @@
+//bianary search using iteration
 #include<stdio.h>
 
 int bianarySearch(int arr[],int x,int low,int high){
@@ -14,7 +15,6 @@ int bianarySearch(int arr[],int x,int low,int high){
         else{
             high=mid-1;
             }
-
     }
 
     return -1;
