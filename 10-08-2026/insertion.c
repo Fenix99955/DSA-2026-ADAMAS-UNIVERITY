@@ -12,6 +12,7 @@ int main(){
     }
 
     arr[pos]=77;
+    size++;
     for(int j=0; j<size; j++){
         printf("%d ,",arr[j]);
     }
