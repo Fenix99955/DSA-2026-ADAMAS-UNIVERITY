@@ -1,6 +1,6 @@
 #include<stdio.h>
 void updatedselectionSort(int arr[],int size){
-    for(int i =0 ; i<size-1; i++){
+    for(int i =0 ; i<(size-1)/2; i++){
         int min_index=i;
         for(int j = i+1; j <size ; j++){
             if(arr[j]<arr[min_index]){
@@ -34,7 +34,7 @@ void updatedselectionSort(int arr[],int size){
 
 
 int main(){
-    int arr[]={2,5,9,6,3,7,8,1};
+    int arr[]={2,5,9,6,66,0,3,7,71,-1,8,1};
     int size=sizeof(arr)/sizeof(arr[0]);
     printf("intermediates\n");
     updatedselectionSort(arr,size);
