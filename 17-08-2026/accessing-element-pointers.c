@@ -14,16 +14,11 @@ for(int i=0;i<size;i++){
 int access(int arr[],int c){
 
     printf("the element is %d\n",*(arr+c));
-
-
     return 0;
 
 }
 
 int main(){
-
-
-
     int arr[]={10,20,30,40,50,60,80,97};
     int size=sizeof(arr)/sizeof(arr[0]);
     int c;

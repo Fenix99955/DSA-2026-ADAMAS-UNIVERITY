@@ -25,6 +25,8 @@ int main(){
     printf("intermediates\n");
     insertionSort(arr,size);
     printf("sorted array \n");
+
+
     for(int i=0;i<size;i++){
         printf("%d ",arr[i]);
     }
@@ -34,3 +36,5 @@ int main(){
     return 0;
 
 }
+//alternatively
+

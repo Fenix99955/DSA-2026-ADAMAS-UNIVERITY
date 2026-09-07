@@ -34,7 +34,7 @@ void updatedselectionSort(int arr[],int size){
 
 
 int main(){
-    int arr[]={2,5,9,6,66,0,3,7,71,-1,8,1};
+    int arr[]={9,8,7,6,5,4};
     int size=sizeof(arr)/sizeof(arr[0]);
     printf("intermediates\n");
     updatedselectionSort(arr,size);
