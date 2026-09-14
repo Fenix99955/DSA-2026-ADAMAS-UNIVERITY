@@ -26,6 +26,7 @@ void quickSort(int arr[], int low, int high) {
         printf("%d ",arr[k]);
     }
     printf("\n");
+    
         quickSort(arr, low, pi - 1);
         quickSort(arr, pi + 1, high);
     }
